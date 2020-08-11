@@ -43,11 +43,24 @@ body {
     width: 100%;
 }
 
-.body1 .form1 {}
+.body1 .form1 {
+    padding-top: 1em;
+}
 
 .body1 .form1 button {
     padding: 0.5em 1em;
     border-radius: 20px;
-    background-color: #fff;
-    color: #111;
+    background-color: #111;
+    color: #fff;
+    margin-top: 1em;
+}
+
+.body2 {
+    width: 100%;
+    display: flex;
+    margin-top: 4em;
+}
+
+.body2 img {
+    width: 100%;
 }
