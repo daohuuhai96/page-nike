@@ -54,13 +54,39 @@ body {
     color: #fff;
     margin-top: 1em;
 }
+.body2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4em;
+}
+.body2 .body2-img1 img{
+    width: 100%;
+}
+.body2 .body2-img1 .nav1{
+    position: relative;
+    position: absolute;
+    top: 195vh;
+    color: #fff;
+    margin-left: 2em;
+}
+.body2 .body2-img1 .nav1 button{
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #111;
+    margin-top: 1em;
+}
+.body2 .body2-img2 img{
+    width: 150%;
+}
 
-.body2 {
+.body3 {
     width: 100%;
     display: flex;
     margin-top: 4em;
 }
 
-.body2 img {
+.body3 img {
     width: 100%;
 }
